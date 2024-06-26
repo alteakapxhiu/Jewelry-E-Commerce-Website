@@ -1,0 +1,356 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+  
+body {background-color:#F3F3F3; font-family: '';}
+* {box-sizing: border-box;}
+
+.search input[type=text]{
+  position: relative;
+  width:300px;
+  height:25px;
+  border-radius:25px;
+  border: none;
+ }
+
+ .search{
+float:right;
+ margin-inline:-5px;
+}
+         
+.search button{
+ background-color: #CDD3D4;
+ color:#737778;
+ float: left;
+  margin-inline:15px ;
+    border: none;
+    cursor: pointer;
+    height:10%;
+ } 
+
+         
+.header {
+  overflow: hidden;
+  background-color: #CDD3D4;
+  padding: 40px 10px;
+  text-align:center;
+ margin-left: 2px;
+}
+
+.header a {
+  color:#737778;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+margin-left: 1px;
+ font-family: 'Megrim', system-ui;
+}
+
+.header a.titulli {
+  font-size: 45px;
+   font-family: 'Megrim', system-ui;
+  margin-right:12px;
+animation-timeline: view();
+  animation: 0.5s slide-right;
+      animation-range: 250px 500px;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -300px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.header a:hover {
+  background-color: none;
+  background:linear-gradient(to top right, #737778 0%, #C6DCE4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+margin-left: 1px;
+}
+
+.header a.faqjakr {
+  color: white;
+  text-align: right;
+  margin-left: 1px;
+}
+
+.header-right {
+  float:left;
+  margin-left: 1px;
+
+}
+  .header-right {
+    float: left;
+    margin-left: 0.5px;
+
+  }
+  
+
+/*-------------Login-------------------*/
+
+.bllokuloginit{float:right;margin-inline: -320px;
+width:50%;
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #CDD3D4;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+  background:none;
+  color:#737778;
+  margin: 12px 10;
+  border: 1px #737778;
+  cursor: pointer;
+  width: 35%;height:30px;
+  border-radius:75px;
+}
+
+button:hover {
+  opacity: 0.8;
+  background:#CDD3D4;
+  color: white;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 5px 15px;
+  background-color: #CDD3D4;
+}
+
+/* Center the image and position the close button */
+.imgcontainer { 
+  text-align: center;
+  margin: 37px 0 25px 0;
+  position: relative;
+  border-radius: 20px;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 0%;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+  font-family: "Megrim";
+}
+
+span.psw {
+  float: right;
+  padding-top: 10px;
+  text-align: center;
+  color:#737778;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(186,188,189,1) 0%, rgba(222,222,222,1) 27%, rgba(223,223,223,1) 37%, rgba(235,235,235,1) 50%, rgba(224,224,224,1) 68%, rgba(170,174,175,1) 100%);
+  margin: -1% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid#737778;
+  width: 25%; /* Could be more or less, depending on screen size */
+  
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #737778;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:  #737778;
+  cursor: pointer;
+  color:#737778;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 150px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+     margin: 20px;
+  }
+}}
+
+/*----LOJA----*/
+
+
+
+/*----fundi faqes----*/
+
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #83BBCE;
+  min-height: 90px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social_icon, footer .menu {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 10px 0;
+}
+
+footer .social_icon li, footer .menu li {
+  list-style: none;
+}
+footer .social_icon li a {
+  font-size: 2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .social_icon li a:hover {
+  transform: translateY(-15px);
+  color: blue;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+footer .menu li a:hover {
+  opacity: 1;
+  color: #fff;
+}
+p {
+  color : #eee;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/*wave and animation*/
+footer .wave {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(ruu.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0%{
+    background-position-x: 1000px; 
+  }
+  100%{
+    background-position-x: 0px; 
+  }
+}
+
+@keyframes animateWave_02 {
+  0%{
+    background-position-x: 0px; 
+  }
+  100%{
+    background-position-x: 1000px; 
+  }
+}
+
+
