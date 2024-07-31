@@ -64,58 +64,73 @@ search
                 </button>
             </form></div>
 
-  <div class="header-right">
-
-    <a class="faqjakr" href="prov.html">Faqja Kryesore</a>
-    <a href="Varese.html" >Produktet</a>
-    <a href="kontakt.html" >Kontakt</a>
-    <a href="Minigame.html">Minigame</a>
-
-  </div></div></div>
+ <div class="header-right">
+  <a class="faqjakr" href="prov.html">Faqja Kryesore</a>
+  <a href="Varese.html">Produktet</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="Minigame.html">Minigame</a>
+</div>
+</div>
+</div>
 
 <hr color="white">
 <hr color="#c4c4c4">
 <hr color="white">
 
 <section class="kuti">
-
-<div class="rreth"></div><div class="kut"></div>
+  <div class="rreth"></div>
+  <div class="kut"></div>
 
   <div class="imazhi">
-           <!-- Swiper -->
+    <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <a href="Vathe.html"><img src="https://purepng.com/public/uploads/large/purepng.com-diamond-earringjewelryjewellerydiamondcinnaearring-1701528883635onhds.png" /></a>
         </div>
         <div class="swiper-slide">
-          <a href="Varese.html"><img src="https://purepng.com/public/uploads/large/purepng.com-diamond-pendantjewelryjewellerydiamondpendant-17015288829893htv1.png"  /></a>
+          <a href="Varese.html"><img src="https://purepng.com/public/uploads/large/purepng.com-diamond-pendantjewelryjewellerydiamondpendant-17015288829893htv1.png" /></a>
         </div>
         <div class="swiper-slide">
-          <a href="Bestseller.html"><img src="https://amz.luxewatches.co.uk/app/uploads/2022/08/18101416/Rolex-Oyster-Perpetual-Cosmograph-Daytona-LW9599-F-5-1-600x600.png " /></a>
+          <a href="Bestseller.html"><img src="https://amz.luxewatches.co.uk/app/uploads/2022/08/18101416/Rolex-Oyster-Perpetual-Cosmograph-Daytona-LW9599-F-5-1-600x600.png" /></a>
         </div>
         <div class="swiper-slide">
-          <a href="Varese.html"><img src="https://pngimg.com/d/necklace_PNG61.png" />
-        </a></div>
+          <a href="Varese.html"><img src="https://pngimg.com/d/necklace_PNG61.png" /></a>
+        </div>
         <div class="swiper-slide">
-          <a href="Unaza.html"><img src="https://www.picng.com/upload/jewelry/png_jewelry_82782.png"/>
-        </a></div>
+          <a href="Unaza.html"><img src="https://www.picng.com/upload/jewelry/png_jewelry_82782.png" /></a>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
+<!-- The missing image section -->
+<section class="additional-content">
+  <div class="slideInUp">
+    <img src="d.png" class="centeri" alt="Additional Image">
+  </div>
+</section>
 
-<script>window.onload=function(){
-  $('.slider').slick({
-  autoplay:true,
-  autoplaySpeed:1500,
-  arrows:true,
-  prevArrow:'<button type="button" class="slick-prev"></button>',
-  nextArrow:'<button type="button" class="slick-next"></button>',
-  centerMode:true,
-  slidesToShow:3,
-  slidesToScroll:1
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 1000,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    loop: true,
   });
-};
 </script>
 <style>
 .frame {position:absolute;
