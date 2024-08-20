@@ -1,4 +1,4 @@
-# INTERACTIVE BUSINESS WEBSITE
+# JEWELERY E-COMMERCE WEBSITE
 
 [A jewellery website](https://alteakapxhiu.github.io/Interactive-Shop-Business-Website/) responsive template designed and developed for shops/businesses to showcase and sell their products.
 
