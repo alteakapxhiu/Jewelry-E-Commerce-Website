@@ -6,4 +6,5 @@
 
 Watch a demo of the website in action:
 
-[![Watch the video](https://img.youtube.com/vi/RsNB99HGBPY/maxresdefault.jpg)](https://www.youtube.com/watch?v=RsNB99HGBPY)
+[![Watch the video](https://i.imghippo.com/files/cNDGk1724318936.jpg)
+](https://www.youtube.com/watch?v=RsNB99HGBPY)
