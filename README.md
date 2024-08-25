@@ -9,6 +9,8 @@ Watch a demo of the website in action:
 [![Watch the video](https://i.imghippo.com/files/cNDGk1724318936.jpg)
 ](https://www.youtube.com/watch?)
 
+Picture Descriptions : 
+
 ![image](https://github.com/user-attachments/assets/aa9ec824-993e-4142-913a-45a6399ec9f8)![image](https://github.com/user-attachments/assets/92748730-707e-4573-a4d8-a60e34d2fca8)
 ![image](https://github.com/user-attachments/assets/e5e335b3-7d8c-402c-bbb1-e5bf9145400d)
 ![image](https://github.com/user-attachments/assets/6bd7b2c8-c2cd-45ef-b141-564dfc63b7b1)
